@@ -1,0 +1,32 @@
+{
+  "name": "linknest",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "dev": "nodemon src/server.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "bcrypt": "^6.0.0",
+    "better-auth": "^1.2.8",
+    "better-sqlite3": "^11.10.0",
+    "dotenv": "^16.5.0",
+    "drizzle-orm": "^0.44.2",
+    "express": "^5.1.0",
+    "express-rate-limit": "^7.5.0",
+    "geoip-lite": "^1.4.10",
+    "morgan": "^1.10.0",
+    "nanoid": "^5.1.5",
+    "qrcode": "^1.5.4",
+    "sqlite3": "^5.1.7",
+    "zod": "^3.25.51"
+  },
+  "devDependencies": {
+    "drizzle-kit": "^0.31.1",
+    "nodemon": "^3.1.10"
+  }
+}
