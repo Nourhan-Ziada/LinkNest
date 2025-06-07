@@ -45,10 +45,5 @@ export const loginUserService = async (email, password) => {
 };
 
 const generateToken = (userId, email) => {
-   const auth = betterAuth({
-    secret: process.env.JWT_SECRET,
-    expiresIn: '1h',
-  });
-  console.log('Generating token for user:', userId, email);
-  return auth.sign({ userId, email });
+  // Generate a JWT token using the `brearToken` library if `better-auth` is not used.
 };
